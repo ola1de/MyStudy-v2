@@ -1,5 +1,6 @@
 import { Link, Route, Routes } from 'react-router-dom'
 import AdminEditor from './pages/AdminEditor'
+import AdminPosts from './pages/AdminPosts'
 import Home from './pages/Home'
 import Keypoints from './pages/Keypoints'
 import Login from './pages/Login'
@@ -22,7 +23,7 @@ export default function App() {
           <Link to="/keypoints">Keypoints</Link>
           <Link to="/vocabulary">Vocabulary</Link>
           <Link to="/profile">Profile</Link>
-          <Link to="/admin/news">Admin editor</Link>
+          <Link to="/admin/posts">Admin posts</Link>
           <Link to="/login">Sign in</Link>
           <Link to="/register">Register</Link>
         </nav>
@@ -37,7 +38,10 @@ export default function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/admin/news" element={<AdminEditor />} />
+        <Route path="/admin/posts" element={<AdminPosts />} />
+        <Route path="/admin/posts/new" element={<AdminEditor />} />
+        <Route path="/admin/posts/:slug/edit" element={<AdminEditor />} />
+        <Route path="/admin/news" element={<AdminPosts />} />
         <Route
           path="*"
           element={
@@ -49,7 +53,35 @@ export default function App() {
         />
       </Routes>
       <footer className="footer">
-        MyStudy Academic Suite v2 (Phase 1 scaffold) — Blogger v1 stays live until staging is approved.
+        <div className="page footer-inner">
+          <div>
+            <p className="footer-brand">MyStudy Academic Suite</p>
+            <p>
+              JAMB, WAEC and NECO preparation for Nigerian students — past questions,
+              keypoints, vocabulary and the tools that carry you through the term.
+            </p>
+          </div>
+          <div>
+            <p className="footer-head">Prepare</p>
+            <p>
+              <Link to="/tools">CBT Practice</Link><br />
+              <Link to="/keypoints">Keypoints</Link><br />
+              <Link to="/vocabulary">Vocabulary</Link><br />
+              <Link to="/news">News</Link>
+            </p>
+          </div>
+          <div>
+            <p className="footer-head">Contact</p>
+            <p>
+              <a href="mailto:mystudyacademicsuite@gmail.com">mystudyacademicsuite@gmail.com</a><br />
+              <a href="https://wa.me/2348100259673" target="_blank" rel="noreferrer">WhatsApp +234 810 025 9673</a>
+            </p>
+          </div>
+          <p className="footer-note">
+            MyStudy v2 is in staging. The Blogger site at mystudy.name.ng stays live until
+            staging is walked through and approved.
+          </p>
+        </div>
       </footer>
     </div>
   )

@@ -1,61 +1,62 @@
 import { Link } from 'react-router-dom'
+import { KEYPOINTS } from '../data/content'
 
-// Keypoints module design (Phase 1 scaffold — design + tables only).
-// Data: mystudy-textbooks — 166 chapters, 503 modules, 4,630 quiz questions,
-// 12 subjects, SSS 1–3 only (audit §6). The design fixes the v1 gaps
-// instead of copying them.
+// Learn Hub / Keypoints — the real coverage, counted from mystudy-textbooks.
+// 273 chapters, 1,482 modules, 13,650 quiz questions (50 per chapter).
+// The chapter reader and 10-question tests are P3 — this page lists what
+// exists today and says plainly what is still missing (JSS 1–3, Primary,
+// and the real Literature prescribed texts).
 export default function Keypoints() {
   return (
     <div className="page">
-      <h1>Keypoints</h1>
-      <p className="notice">
-        Status: planned (P3). The design and the database tables (migration 0002) are in place;
-        the chapter import and reader are not built yet. Nothing on this page is a working
-        reader — it is the plan the reader will be built to.
+      <p className="kicker">Learn Hub — Keypoints</p>
+      <h1>Short notes that follow the syllabus</h1>
+      <p className="lede">
+        {KEYPOINTS.chapters} chapters across {KEYPOINTS.subjects.length} subjects, SSS 1–3.
+        Every chapter has its study modules and exactly 50 quiz questions —{' '}
+        {KEYPOINTS.quiz.toLocaleString('en-NG')} questions in total, across{' '}
+        {KEYPOINTS.modules.toLocaleString('en-NG')} modules.
+      </p>
+      <p className="fineprint">
+        The chapter reader (one module at a time, progress saved to your account, then a
+        10-question test from the chapter&apos;s quiz pool) is being built next. This page
+        lists the content that is already in the bank — nothing here is a working reader yet.
       </p>
 
-      <h2>How it works in v2 (different model from v1)</h2>
-      <p>
-        v1 kept a 165-topic registry in the template that fetched chapter JSON from jsDelivr at
-        runtime — and showed subjects with no topics at all as if they existed. v2 is
-        server-backed: chapters are imported once into D1 (<code>textbook_chapters</code>),
-        the reader loads one module at a time from the API, and progress
-        (<code>keypoint_progress</code>) is recorded server-side, so a student&apos;s
-        &ldquo;modules done&rdquo; and best scores cannot be edited in the browser.
-      </p>
-      <ul>
-        <li><strong>Reader:</strong> one module at a time, prev/next, progress bar, &ldquo;mark module done&rdquo;, KaTeX maths rendering, then a 10-question test drawn from the chapter&apos;s quiz pool.</li>
-        <li><strong>Tests:</strong> score + time + per-topic progress (modules done, best score, average score, tests taken) kept server-side.</li>
-        <li><strong>Honest availability:</strong> only subjects with real imported chapters are offered. Missing subjects show &ldquo;coming soon&rdquo;, never an empty shell.</li>
+      <table className="data-table">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Chapters</th>
+            <th>Quiz questions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {KEYPOINTS.subjects.map((s) => (
+            <tr key={s.slug}>
+              <td>{s.name}</td>
+              <td>{s.chapters}</td>
+              <td>{(s.chapters * 50).toLocaleString('en-NG')}</td>
+            </tr>
+          ))}
+          <tr className="total-row">
+            <td>Total</td>
+            <td>{KEYPOINTS.chapters}</td>
+            <td>{KEYPOINTS.quiz.toLocaleString('en-NG')}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>What is still missing</h2>
+      <ul className="tick-list plain">
+        <li>JSS 1–3 and Primary keypoints — no chapters exist yet.</li>
+        <li>Literature chapters are appreciation frameworks, not the actual JAMB prescribed texts.</li>
+        <li>2,071 of the quiz questions (15.2%) are syllabus-modelled practice, labelled as such — they need a subject review before they are presented as exam-grade.</li>
       </ul>
-
-      <h2>Coverage — what exists, what must be filled</h2>
       <p>
-        Imported as-is (12 subjects, SSS 1–3): Mathematics, English, Physics, Chemistry,
-        Biology, Economics, Government, Literature, Geography, Commerce, Accounting, Agric —
-        166 chapters, 503 modules, 4,630 quiz questions.
-      </p>
-      <p>
-        <strong>Missing and to be authored — no shallow topics left:</strong> CRS, IRS, Civic
-        Education, Computer Studies, Further Mathematics, History, Hausa, Igbo, Yoruba have no
-        textbook chapters at all. There is no JSS 1–3 content and no Primary content. Every
-        topic must be deepened to full coverage: each subject gets its full syllabus topic
-        list at every level it is taught, with modules that teach the topic properly (not a
-        one-paragraph stub) and a real quiz pool per chapter. Mathematics files use a
-        different schema (<code>topic</code>/<code>ss_level</code>/<code>icon</code>/
-        <code>color</code>) from the other 11 subjects — the P3 importer normalises both
-        schemas to one table.
-      </p>
-      <p>
-        Literature chapters are generic appreciation/prescribed-text frameworks, not the JAMB
-        prescribed texts themselves — those need authoring against the current JAMB syllabus.
-      </p>
-
-      <h2>Where the content comes from</h2>
-      <p>
-        Chapters come verbatim from the user&apos;s <code>mystudy-textbooks</code> repo. New
-        chapters are authored against the official JAMB/WAEC/NECO syllabuses — the importer
-        never invents module content or quiz questions.
+        Chapters come from the user&apos;s <code>mystudy-textbooks</code> repo, authored against
+        the official JAMB/WAEC/NECO syllabuses. The importer never invents module content or
+        quiz questions.
       </p>
       <p><Link to="/tools">Back to all tools</Link></p>
     </div>

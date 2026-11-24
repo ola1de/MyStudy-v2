@@ -2,41 +2,63 @@ import { Link } from 'react-router-dom'
 import { TOOLS, type ToolStatus } from '../lib/tools'
 
 const STATUS_LABEL: Record<ToolStatus, string> = {
-  built: 'Built — verified in Phase 1',
-  stubbed: 'Stubbed — shell exists, write path lands in P2',
-  planned: 'Planned — design + model named, not built yet',
+  built: 'Built',
+  stubbed: 'Shell only',
+  planned: 'Planned',
 }
 
+const STATUS_NOTE: Record<ToolStatus, string> = {
+  built: 'Implemented in this build and verified. You can use it.',
+  stubbed: 'The screen or API exists, but the write path is not wired yet. It says so on the screen.',
+  planned: 'Design and rebuild model named, not built yet. Never shown as working.',
+}
+
+// Tools index — grouped by honest status, in rows, not a wall of identical
+// cards. Each row names the v2 rebuild model and what v1 did, so a student
+// can tell at a glance what works today and what is still coming.
 export default function Tools() {
-  const built = TOOLS.filter((t) => t.status === 'built').length
-  const stubbed = TOOLS.filter((t) => t.status === 'stubbed').length
-  const planned = TOOLS.filter((t) => t.status === 'planned').length
+  const groups: ToolStatus[] = ['built', 'stubbed', 'planned']
   return (
     <div className="page">
-      <h1>All tools</h1>
-      <p>
-        Every tool from v1, rebuilt better than v1 — each with a different model, not a copy of
-        the v1 localStorage JavaScript. Server-backed where it matters (accounts, progress,
-        premium), client-side where privacy matters (your documents stay on your device).
+      <p className="kicker">All tools</p>
+      <h1>Every tool from v1, rebuilt better than v1</h1>
+      <p className="lede">
+        {TOOLS.length} tools. Server-backed where it matters (accounts, progress, premium),
+        client-side where privacy matters (your documents stay on your device). Nothing here
+        is claimed as working until it is built and verified.
       </p>
-      <p className="notice">
-        {TOOLS.length} tools: {built} built, {stubbed} stubbed, {planned} planned. Nothing here
-        is claimed as working until it is built and verified — planned tools show their model
-        and their phase, not a fake working screen.
-      </p>
-      <div className="grid">
-        {TOOLS.map((t) => (
-          <article className="card" key={t.name}>
-            <span className="eyebrow">{t.phase} · {t.status}</span>
-            <h3>{t.name}</h3>
-            <p><strong>v2 model:</strong> {t.v2model}</p>
-            <p><strong>v1:</strong> {t.v1}</p>
-            <p>{STATUS_LABEL[t.status]}</p>
-          </article>
-        ))}
-      </div>
+      {groups.map((status) => {
+        const items = TOOLS.filter((t) => t.status === status)
+        if (items.length === 0) return null
+        return (
+          <section key={status}>
+            <div className="section-head">
+              <h2>
+                {STATUS_LABEL[status]} — {items.length}
+              </h2>
+              <p className="section-note">{STATUS_NOTE[status]}</p>
+            </div>
+            <div className="tool-rows">
+              {items.map((t) => (
+                <div className="tool-row static" key={t.name}>
+                  <span>
+                    <strong>{t.name}</strong>
+                    <small>
+                      <b>v2:</b> {t.v2model}
+                    </small>
+                    <small className="muted">
+                      <b>v1:</b> {t.v1}
+                    </small>
+                  </span>
+                  <span className={`status-pill ${status}`}>{t.phase}</span>
+                </div>
+              ))}
+            </div>
+          </section>
+        )
+      })}
       <p style={{ marginTop: '1.5rem' }}>
-        <Link to="/keypoints">Keypoints design</Link> · <Link to="/vocabulary">Vocabulary design</Link>
+        <Link to="/keypoints">Keypoints</Link> · <Link to="/vocabulary">Vocabulary</Link>
       </p>
     </div>
   )

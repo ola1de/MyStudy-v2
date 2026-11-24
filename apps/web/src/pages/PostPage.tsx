@@ -49,6 +49,8 @@ export default function PostPage() {
       {post.category && <span className="eyebrow">{post.category}</span>}
       <h1 className="post-title">{post.title}</h1>
       <p className="post-meta">
+        By MyStudy
+        {' · '}
         {post.published_at ? new Date(post.published_at).toLocaleDateString('en-NG', { day: 'numeric', month: 'long', year: 'numeric' }) : ''}
         {' · '}
         {readTimeMinutes(post.body_html)} min read
@@ -83,6 +85,17 @@ export default function PostPage() {
           ))}
         </p>
       )}
+      <p className="share-bar">
+        <strong>Share this post</strong>
+        {' · '}
+        <a href={`https://wa.me/?text=${encodeURIComponent(`${post.title} ${shareUrl}`)}`} target="_blank" rel="noreferrer">WhatsApp</a>
+        {' · '}
+        <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noreferrer">X</a>
+        {' · '}
+        <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noreferrer">Facebook</a>
+        {' · '}
+        <button type="button" className="ghost" onClick={() => navigator.clipboard.writeText(shareUrl)}>Copy link</button>
+      </p>
       <p><Link to="/news">← Back to News</Link></p>
     </div>
   )

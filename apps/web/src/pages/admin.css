@@ -1,0 +1,319 @@
+/* Admin (posts list + editor) styles. Imported only by AdminPosts and
+   AdminEditor — the rest of the site keeps using styles.css. */
+
+.admin-page {
+  max-width: 960px;
+}
+
+.admin-sub {
+  color: var(--muted, #666);
+  margin: 0.25rem 0 0;
+}
+
+.admin-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.admin-head h1 {
+  margin: 0;
+}
+
+.admin-btn {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--border, #ddd);
+  border-radius: 6px;
+  background: var(--bg, #fff);
+  color: var(--text, #222);
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.admin-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.admin-btn-primary {
+  background: var(--primary, #1a5c2a);
+  border-color: var(--primary, #1a5c2a);
+  color: #fff;
+}
+
+.admin-btn-danger {
+  color: #a11;
+  border-color: #d88;
+}
+
+.admin-btn-danger:hover {
+  background: #fdeeee;
+}
+
+.admin-link-btn {
+  border: none;
+  background: none;
+  color: var(--primary, #1a5c2a);
+  padding: 0.2rem 0;
+  text-decoration: underline;
+}
+
+.admin-error {
+  color: #a11;
+  background: #fdeeee;
+  border: 1px solid #f0c0c0;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+}
+
+.admin-notice {
+  color: #14551f;
+  background: #e9f6ea;
+  border: 1px solid #b9ddba;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+}
+
+.admin-empty {
+  border: 1px dashed var(--border, #ddd);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.admin-filters {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.admin-filters input[type="search"] {
+  flex: 1 1 220px;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.admin-filters select {
+  padding: 0.5rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 0.65rem 0.5rem;
+  border-bottom: 1px solid var(--border, #e5e5e5);
+  vertical-align: top;
+}
+
+.admin-post-title {
+  font-weight: 600;
+}
+
+.admin-post-slug {
+  color: var(--muted, #666);
+  font-size: 0.85rem;
+}
+
+.admin-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.admin-badge-draft {
+  background: #eee;
+  color: #555;
+}
+
+.admin-badge-published {
+  background: #e9f6ea;
+  color: #14551f;
+}
+
+.admin-badge-scheduled {
+  background: #fff3d6;
+  color: #7a5b00;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+/* Editor */
+
+.admin-editor-page {
+  max-width: 860px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.admin-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.admin-form input,
+.admin-form textarea,
+.admin-form select {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-form h3 {
+  margin: 0.6rem 0 0;
+}
+
+.admin-toolbar {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  padding: 0.45rem;
+  border: 1px solid var(--border, #ccc);
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  background: var(--bg-secondary, #f6f6f6);
+}
+
+.admin-toolbar button {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 4px;
+  background: #fff;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.admin-toolbar button:hover {
+  background: #eee;
+}
+
+.admin-body-editor {
+  min-height: 320px;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 0 0 6px 6px;
+  margin-top: -0.9rem;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  outline: none;
+  background: #fff;
+}
+
+.admin-body-editor:focus {
+  border-color: var(--primary, #1a5c2a);
+}
+
+.admin-body-editor h2 {
+  font-size: 1.5rem;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.admin-body-editor h3 {
+  font-size: 1.2rem;
+  margin: 1.2rem 0 0.4rem;
+}
+
+.admin-body-editor blockquote {
+  border-left: 3px solid var(--primary, #1a5c2a);
+  margin: 1rem 0;
+  padding: 0.4rem 1rem;
+  color: #444;
+}
+
+.admin-body-editor pre {
+  background: #f4f4f4;
+  padding: 0.8rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+.admin-body-editor img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.admin-fieldset {
+  border: 1px solid var(--border, #ccc);
+  border-radius: 6px;
+  padding: 0.8rem;
+}
+
+.admin-fieldset legend {
+  font-weight: 600;
+  padding: 0 0.4rem;
+}
+
+.admin-image-row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.admin-image-row input {
+  flex: 1 1 220px;
+}
+
+.admin-image-preview {
+  max-width: 100%;
+  max-height: 260px;
+  margin-top: 0.7rem;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.admin-inline-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.admin-inline-row input {
+  flex: 1;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.admin-preview {
+  border: 1px solid var(--border, #ddd);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
