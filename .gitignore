@@ -1,0 +1,22 @@
+node_modules/
+dist/
+build/
+target/
+.dev.vars
+.wrangler/
+*.log
+*.tsbuildinfo
+.DS_Store
+# Never commit secrets, Paystack keys, or TOTP secrets.
+.env
+.env.*
+!.env.example
+
+# MyStudy data repos (pushed separately to their own repos)
+data-repos/
+
+# Snapshot-push exclusions: binary / generated, not source
+__pycache__/
+*.pyc
+# Downloaded JAMB syllabus PDFs (source material, binary, re-downloadable)
+docs/fixes-24-nov/jamb-gen/syllabus/*.pdf

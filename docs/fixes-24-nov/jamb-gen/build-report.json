@@ -1,0 +1,115 @@
+{
+  "total": 900,
+  "files": [
+    {
+      "name": "JAMB_Accounting_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Agric_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Biology_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_CRS_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Chemistry_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Civic_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Commerce_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Computer_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Economics_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_English_2020.json",
+      "questions": 60,
+      "errors": []
+    },
+    {
+      "name": "JAMB_FurtherMath_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Geography_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Government_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Hausa_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Hausa_2023.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_History_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_IRS_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Igbo_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Literature_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Mathematics_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Physics_2020.json",
+      "questions": 40,
+      "errors": []
+    },
+    {
+      "name": "JAMB_Yoruba_2020.json",
+      "questions": 40,
+      "errors": []
+    }
+  ]
+}

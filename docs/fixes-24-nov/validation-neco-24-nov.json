@@ -1,0 +1,746 @@
+{
+  "files": {
+    "NECO_Accounting_2020.json": {
+      "subject": "Accounting",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Accounting_2021.json": {
+      "subject": "Accounting",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Accounting_2022.json": {
+      "subject": "Accounting",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Accounting_2023.json": {
+      "subject": "Accounting",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Agric_2020.json": {
+      "subject": "Agric",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Agric_2021.json": {
+      "subject": "Agric",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Agric_2022.json": {
+      "subject": "Agric",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Agric_2023.json": {
+      "subject": "Agric",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Biology_2020.json": {
+      "subject": "Biology",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Biology_2021.json": {
+      "subject": "Biology",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Biology_2022.json": {
+      "subject": "Biology",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Biology_2023.json": {
+      "subject": "Biology",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_CRS_2020.json": {
+      "subject": "CRS",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_CRS_2021.json": {
+      "subject": "CRS",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_CRS_2022.json": {
+      "subject": "CRS",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_CRS_2023.json": {
+      "subject": "CRS",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Chemistry_2020.json": {
+      "subject": "Chemistry",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Chemistry_2021.json": {
+      "subject": "Chemistry",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Chemistry_2022.json": {
+      "subject": "Chemistry",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Chemistry_2023.json": {
+      "subject": "Chemistry",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Civic_2020.json": {
+      "subject": "Civic",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Civic_2021.json": {
+      "subject": "Civic",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Civic_2022.json": {
+      "subject": "Civic",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Civic_2023.json": {
+      "subject": "Civic",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Commerce_2020.json": {
+      "subject": "Commerce",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Commerce_2021.json": {
+      "subject": "Commerce",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Commerce_2022.json": {
+      "subject": "Commerce",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Commerce_2023.json": {
+      "subject": "Commerce",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Computer_2020.json": {
+      "subject": "Computer",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Computer_2021.json": {
+      "subject": "Computer",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Computer_2022.json": {
+      "subject": "Computer",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Computer_2023.json": {
+      "subject": "Computer",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Economics_2020.json": {
+      "subject": "Economics",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Economics_2021.json": {
+      "subject": "Economics",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Economics_2022.json": {
+      "subject": "Economics",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Economics_2023.json": {
+      "subject": "Economics",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_English_2020.json": {
+      "subject": "English",
+      "year": 2020,
+      "items": 52,
+      "questions": 60,
+      "passages": 2
+    },
+    "NECO_English_2021.json": {
+      "subject": "English",
+      "year": 2021,
+      "items": 52,
+      "questions": 60,
+      "passages": 2
+    },
+    "NECO_English_2022.json": {
+      "subject": "English",
+      "year": 2022,
+      "items": 52,
+      "questions": 60,
+      "passages": 2
+    },
+    "NECO_English_2023.json": {
+      "subject": "English",
+      "year": 2023,
+      "items": 52,
+      "questions": 60,
+      "passages": 2
+    },
+    "NECO_FurtherMath_2020.json": {
+      "subject": "FurtherMath",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_FurtherMath_2021.json": {
+      "subject": "FurtherMath",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_FurtherMath_2022.json": {
+      "subject": "FurtherMath",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_FurtherMath_2023.json": {
+      "subject": "FurtherMath",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Geography_2020.json": {
+      "subject": "Geography",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Geography_2021.json": {
+      "subject": "Geography",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Geography_2022.json": {
+      "subject": "Geography",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Geography_2023.json": {
+      "subject": "Geography",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Government_2020.json": {
+      "subject": "Government",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Government_2021.json": {
+      "subject": "Government",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Government_2022.json": {
+      "subject": "Government",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Government_2023.json": {
+      "subject": "Government",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Hausa_2020.json": {
+      "subject": "Hausa",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Hausa_2021.json": {
+      "subject": "Hausa",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Hausa_2022.json": {
+      "subject": "Hausa",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Hausa_2023.json": {
+      "subject": "Hausa",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_History_2020.json": {
+      "subject": "History",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_History_2021.json": {
+      "subject": "History",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_History_2022.json": {
+      "subject": "History",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_History_2023.json": {
+      "subject": "History",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_IRS_2020.json": {
+      "subject": "IRS",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_IRS_2021.json": {
+      "subject": "IRS",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_IRS_2022.json": {
+      "subject": "IRS",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_IRS_2023.json": {
+      "subject": "IRS",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Igbo_2020.json": {
+      "subject": "Igbo",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Igbo_2021.json": {
+      "subject": "Igbo",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Igbo_2022.json": {
+      "subject": "Igbo",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Igbo_2023.json": {
+      "subject": "Igbo",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Literature_2020.json": {
+      "subject": "Literature",
+      "year": 2020,
+      "items": 36,
+      "questions": 40,
+      "passages": 1
+    },
+    "NECO_Literature_2021.json": {
+      "subject": "Literature",
+      "year": 2021,
+      "items": 36,
+      "questions": 40,
+      "passages": 1
+    },
+    "NECO_Literature_2022.json": {
+      "subject": "Literature",
+      "year": 2022,
+      "items": 36,
+      "questions": 40,
+      "passages": 1
+    },
+    "NECO_Literature_2023.json": {
+      "subject": "Literature",
+      "year": 2023,
+      "items": 36,
+      "questions": 40,
+      "passages": 1
+    },
+    "NECO_Mathematics_2020.json": {
+      "subject": "Mathematics",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Mathematics_2021.json": {
+      "subject": "Mathematics",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Mathematics_2022.json": {
+      "subject": "Mathematics",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Mathematics_2023.json": {
+      "subject": "Mathematics",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Physics_2020.json": {
+      "subject": "Physics",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Physics_2021.json": {
+      "subject": "Physics",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Physics_2022.json": {
+      "subject": "Physics",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Physics_2023.json": {
+      "subject": "Physics",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Yoruba_2020.json": {
+      "subject": "Yoruba",
+      "year": 2020,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Yoruba_2021.json": {
+      "subject": "Yoruba",
+      "year": 2021,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Yoruba_2022.json": {
+      "subject": "Yoruba",
+      "year": 2022,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    },
+    "NECO_Yoruba_2023.json": {
+      "subject": "Yoruba",
+      "year": 2023,
+      "items": 40,
+      "questions": 40,
+      "passages": 0
+    }
+  },
+  "subjects": {
+    "Accounting": {
+      "pool_total": 169,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 169,
+      "questions_written": 160
+    },
+    "Agric": {
+      "pool_total": 177,
+      "duplicates_removed": 7,
+      "dropped_real_match": 0,
+      "unique_kept": 170,
+      "questions_written": 160
+    },
+    "Biology": {
+      "pool_total": 192,
+      "duplicates_removed": 1,
+      "dropped_real_match": 1,
+      "unique_kept": 190,
+      "questions_written": 160
+    },
+    "CRS": {
+      "pool_total": 166,
+      "duplicates_removed": 1,
+      "dropped_real_match": 3,
+      "unique_kept": 162,
+      "questions_written": 160
+    },
+    "Chemistry": {
+      "pool_total": 162,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 162,
+      "questions_written": 160
+    },
+    "Civic": {
+      "pool_total": 170,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 170,
+      "questions_written": 160
+    },
+    "Commerce": {
+      "pool_total": 167,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 167,
+      "questions_written": 160
+    },
+    "Computer": {
+      "pool_total": 188,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 188,
+      "questions_written": 160
+    },
+    "Economics": {
+      "pool_total": 213,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 213,
+      "questions_written": 160
+    },
+    "English": {
+      "pool_total": 224,
+      "duplicates_removed": 20,
+      "dropped_real_match": 0,
+      "unique_kept": 204,
+      "questions_written": 240
+    },
+    "FurtherMath": {
+      "pool_total": 166,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 166,
+      "questions_written": 160
+    },
+    "Geography": {
+      "pool_total": 173,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 173,
+      "questions_written": 160
+    },
+    "Government": {
+      "pool_total": 174,
+      "duplicates_removed": 0,
+      "dropped_real_match": 2,
+      "unique_kept": 172,
+      "questions_written": 160
+    },
+    "Hausa": {
+      "pool_total": 191,
+      "duplicates_removed": 0,
+      "dropped_real_match": 1,
+      "unique_kept": 190,
+      "questions_written": 160
+    },
+    "History": {
+      "pool_total": 182,
+      "duplicates_removed": 6,
+      "dropped_real_match": 1,
+      "unique_kept": 175,
+      "questions_written": 160
+    },
+    "IRS": {
+      "pool_total": 164,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 164,
+      "questions_written": 160
+    },
+    "Igbo": {
+      "pool_total": 167,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 167,
+      "questions_written": 160
+    },
+    "Literature": {
+      "pool_total": 185,
+      "duplicates_removed": 23,
+      "dropped_real_match": 6,
+      "unique_kept": 156,
+      "questions_written": 160
+    },
+    "Mathematics": {
+      "pool_total": 168,
+      "duplicates_removed": 1,
+      "dropped_real_match": 0,
+      "unique_kept": 167,
+      "questions_written": 160
+    },
+    "Physics": {
+      "pool_total": 166,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 166,
+      "questions_written": 160
+    },
+    "Yoruba": {
+      "pool_total": 182,
+      "duplicates_removed": 0,
+      "dropped_real_match": 0,
+      "unique_kept": 182,
+      "questions_written": 160
+    }
+  },
+  "total_files": 84,
+  "total_questions": 3440,
+  "validation_errors": [],
+  "real_files_hashed": 42,
+  "real_questions_hashed": 1223
+}
