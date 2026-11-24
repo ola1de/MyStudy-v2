@@ -1,0 +1,38 @@
+FILES: 24
+TOTAL WORDS: 2400 | TOTAL QUIZ: 2400
+
+== per-file ==
+admin-vocabulary.json: words=100 quiz=100 word_pref={'ad': 100} quiz_pref={'ad': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+animal-habitats.json: words=100 quiz=100 word_pref={'ah': 100} quiz_pref={'ah': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+baby-animals.json: words=100 quiz=100 word_pref={'ba': 100} quiz_pref={'bab': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+branches-of-study.json: words=100 quiz=100 word_pref={'st': 50, 'bos': 50} quiz_pref={'bra': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+capability-adjectives.json: words=100 quiz=100 word_pref={'ca': 100} quiz_pref={'cap': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+collective-nouns.json: words=100 quiz=100 word_pref={'cn': 100} quiz_pref={'col': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+dietary-habits.json: words=100 quiz=100 word_pref={'dh': 100} quiz_pref={'die': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+environment.json: words=100 quiz=100 word_pref={'en': 100} quiz_pref={'en': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+forms-of-government.json: words=100 quiz=100 word_pref={'gov': 50, 'fog': 50} quiz_pref={'for': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+idioms.json: words=100 quiz=100 word_pref={'id': 100} quiz_pref={'id': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+measurement-instruments.json: words=100 quiz=100 word_pref={'mi': 100} quiz_pref={'mea': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+medical-specialists.json: words=100 quiz=100 word_pref={'md': 50, 'ms': 50} quiz_pref={'med': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+natural-phenomena.json: words=100 quiz=100 word_pref={'np': 100} quiz_pref={'np': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+obsessions.json: words=100 quiz=100 word_pref={'ob': 50, 'o': 50} quiz_pref={'obs': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+one-word-substitutions.json: words=100 quiz=100 word_pref={'ows': 100} quiz_pref={'one': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+personality-types.json: words=100 quiz=100 word_pref={'pt': 100} quiz_pref={'per': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+philosophical-stances.json: words=100 quiz=100 word_pref={'ph': 50, 'ps': 50} quiz_pref={'phi': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+phobias.json: words=100 quiz=100 word_pref={'pho': 50, 'p': 50} quiz_pref={'pho': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+professions.json: words=100 quiz=100 word_pref={'pr': 100} quiz_pref={'pr': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+proverbs.json: words=100 quiz=100 word_pref={'pv': 100} quiz_pref={'pv': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+sensory-sounds.json: words=100 quiz=100 word_pref={'ss': 100} quiz_pref={'ss': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+time-and-frequency.json: words=100 quiz=100 word_pref={'tf': 50, 'taf': 50} quiz_pref={'tim': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+umbrella-terms.json: words=100 quiz=100 word_pref={'ut': 100} quiz_pref={'ut': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+words-for-killing.json: words=100 quiz=100 word_pref={'kl': 50, 'wfk': 50} quiz_pref={'wor': 100} dup_ids={} dup_qids={} dup_words={} dup_defs={} quiz_numbered=True
+
+== entry defects: 0 ==
+
+== quiz defects: 0 ==
+
+== duplicate word ids globally: {}
+== duplicate quiz ids globally: {}
+
+== shared words cross-category: 52 | same-sense: 10 | diff-sense: 42
+SAME-SENSE: ['cacophony', 'ephemeral', 'hedonist', 'iconoclast', 'ineffable', 'misanthrope', 'recluse', 'referendum', 'xenophobe', 'zealot']

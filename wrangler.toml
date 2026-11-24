@@ -1,0 +1,46 @@
+# MyStudy v2 — Cloudflare Workers configuration (Phase 1 scaffold).
+# Rust backend via workers-rs / worker-build. No secrets in this file.
+# D1 ids filled 2026-11-24 (staging deploy): mystudy-db /
+# mystudy-db-staging created via cf.py. Top-level bindings are for the
+# future production cutover (P5); do NOT deploy without --env staging
+# until the user approves cutover. No cron trigger: the account is at
+# 5/5 free cron triggers — scheduled publishing is lazy/on-read.
+
+name = "mystudy-v2"
+main = "workers/api/build/worker/shim.mjs"
+compatibility_date = "2026-11-24"
+
+[build]
+command = "bash scripts/build-worker.sh"
+
+# React SPA (Vite build output). The binding line is required: without it
+# no ASSETS fetcher is injected and the SPA returns 503.
+[assets]
+binding = "ASSETS"
+directory = "./apps/web/dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mystudy-db"
+database_id = "f8258cd8-5dd0-4f3b-b930-aea5b3c91ba7"
+migrations_dir = "workers/api/migrations"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "mystudy-media"
+
+# Staging environment. Production is a separate, user-approved step (P5);
+# it is NOT declared here yet so nobody can deploy to production by
+# accident from this scaffold.
+[env.staging]
+name = "mystudy-v2-staging"
+
+[[env.staging.d1_databases]]
+binding = "DB"
+database_name = "mystudy-db-staging"
+database_id = "25b6e57e-8c92-4ef7-8d06-548b0c8d39d6"
+migrations_dir = "workers/api/migrations"
+
+[[env.staging.r2_buckets]]
+binding = "MEDIA"
+bucket_name = "mystudy-media-staging"

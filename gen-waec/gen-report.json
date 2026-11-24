@@ -1,0 +1,653 @@
+{
+  "Accounting|2020": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Accounting|2021": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Accounting|2022": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Accounting|2023": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Accounting": {
+    "cross_year_overlap": {
+      "2020v2021": 18,
+      "2020v2022": 18,
+      "2020v2023": 17,
+      "2021v2022": 19,
+      "2021v2023": 16,
+      "2022v2023": 17
+    },
+    "pool_size_union": 101
+  },
+  "Agric|2020": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Agric|2021": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Agric|2022": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Agric|2023": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Agric": {
+    "cross_year_overlap": {
+      "2020v2021": 27,
+      "2020v2022": 26,
+      "2020v2023": 24,
+      "2021v2022": 25,
+      "2021v2023": 23,
+      "2022v2023": 23
+    },
+    "pool_size_union": 84
+  },
+  "Biology|2020": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Biology|2021": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Biology|2022": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Biology|2023": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Biology": {
+    "cross_year_overlap": {
+      "2020v2021": 20,
+      "2020v2022": 21,
+      "2020v2023": 19,
+      "2021v2022": 18,
+      "2021v2023": 19,
+      "2022v2023": 20
+    },
+    "pool_size_union": 97
+  },
+  "CRS|2020": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "CRS|2021": {
+    "dropped_real_match": 5,
+    "total": 50,
+    "top": 50
+  },
+  "CRS|2022": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "CRS|2023": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "CRS": {
+    "cross_year_overlap": {
+      "2020v2021": 29,
+      "2020v2022": 27,
+      "2020v2023": 25,
+      "2021v2022": 28,
+      "2021v2023": 25,
+      "2022v2023": 25
+    },
+    "pool_size_union": 86
+  },
+  "Chemistry|2020": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Chemistry|2021": {
+    "dropped_real_match": 3,
+    "total": 50,
+    "top": 50
+  },
+  "Chemistry|2022": {
+    "dropped_real_match": 4,
+    "total": 50,
+    "top": 50
+  },
+  "Chemistry|2023": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Chemistry": {
+    "cross_year_overlap": {
+      "2020v2021": 19,
+      "2020v2022": 15,
+      "2020v2023": 18,
+      "2021v2022": 14,
+      "2021v2023": 9,
+      "2022v2023": 13
+    },
+    "pool_size_union": 120
+  },
+  "Civic|2020": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Civic|2021": {
+    "dropped_real_match": 4,
+    "total": 50,
+    "top": 50
+  },
+  "Civic|2022": {
+    "dropped_real_match": 3,
+    "total": 50,
+    "top": 50
+  },
+  "Civic|2023": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Civic": {
+    "cross_year_overlap": {
+      "2020v2021": 23,
+      "2020v2022": 25,
+      "2020v2023": 21,
+      "2021v2022": 22,
+      "2021v2023": 22,
+      "2022v2023": 20
+    },
+    "pool_size_union": 95
+  },
+  "Commerce|2020": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Commerce|2021": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Commerce|2022": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Commerce|2023": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Commerce": {
+    "cross_year_overlap": {
+      "2020v2021": 32,
+      "2020v2022": 29,
+      "2020v2023": 28,
+      "2021v2022": 30,
+      "2021v2023": 27,
+      "2022v2023": 27
+    },
+    "pool_size_union": 77
+  },
+  "Computer|2020": {
+    "dropped_real_match": 6,
+    "total": 50,
+    "top": 50
+  },
+  "Computer|2021": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Computer|2022": {
+    "dropped_real_match": 4,
+    "total": 50,
+    "top": 50
+  },
+  "Computer|2023": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Computer": {
+    "cross_year_overlap": {
+      "2020v2021": 21,
+      "2020v2022": 20,
+      "2020v2023": 19,
+      "2021v2022": 20,
+      "2021v2023": 17,
+      "2022v2023": 19
+    },
+    "pool_size_union": 104
+  },
+  "Economics|2020": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Economics|2021": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Economics|2022": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Economics|2023": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Economics": {
+    "cross_year_overlap": {
+      "2020v2021": 14,
+      "2020v2022": 13,
+      "2020v2023": 11,
+      "2021v2022": 16,
+      "2021v2023": 13,
+      "2022v2023": 11
+    },
+    "pool_size_union": 129
+  },
+  "English|2020": {
+    "dropped_real_match": 0,
+    "total": 60,
+    "top": 52
+  },
+  "English|2021": {
+    "dropped_real_match": 0,
+    "total": 60,
+    "top": 52
+  },
+  "English|2022": {
+    "dropped_real_match": 0,
+    "total": 60,
+    "top": 52
+  },
+  "English|2023": {
+    "dropped_real_match": 1,
+    "total": 60,
+    "top": 52
+  },
+  "English": {
+    "cross_year_overlap": {
+      "2020v2021": 0,
+      "2020v2022": 0,
+      "2020v2023": 0,
+      "2021v2022": 0,
+      "2021v2023": 0,
+      "2022v2023": 0
+    },
+    "pool_size_union": 224
+  },
+  "FurtherMath|2020": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "FurtherMath|2021": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "FurtherMath|2022": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "FurtherMath|2023": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "FurtherMath": {
+    "cross_year_overlap": {
+      "2020v2021": 13,
+      "2020v2022": 5,
+      "2020v2023": 0,
+      "2021v2022": 6,
+      "2021v2023": 0,
+      "2022v2023": 1
+    },
+    "pool_size_union": 193
+  },
+  "Geography|2020": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Geography|2021": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Geography|2022": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Geography|2023": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Geography": {
+    "cross_year_overlap": {
+      "2020v2021": 20,
+      "2020v2022": 19,
+      "2020v2023": 20,
+      "2021v2022": 19,
+      "2021v2023": 20,
+      "2022v2023": 18
+    },
+    "pool_size_union": 98
+  },
+  "Government|2020": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Government|2021": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Government|2022": {
+    "dropped_real_match": 3,
+    "total": 50,
+    "top": 50
+  },
+  "Government|2023": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Government": {
+    "cross_year_overlap": {
+      "2020v2021": 22,
+      "2020v2022": 22,
+      "2020v2023": 21,
+      "2021v2022": 22,
+      "2021v2023": 23,
+      "2022v2023": 20
+    },
+    "pool_size_union": 95
+  },
+  "Hausa|2020": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Hausa|2021": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Hausa|2022": {
+    "dropped_real_match": 3,
+    "total": 50,
+    "top": 50
+  },
+  "Hausa|2023": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Hausa": {
+    "cross_year_overlap": {
+      "2020v2021": 24,
+      "2020v2022": 27,
+      "2020v2023": 25,
+      "2021v2022": 25,
+      "2021v2023": 24,
+      "2022v2023": 23
+    },
+    "pool_size_union": 89
+  },
+  "History|2020": {
+    "dropped_real_match": 3,
+    "total": 50,
+    "top": 50
+  },
+  "History|2021": {
+    "dropped_real_match": 7,
+    "total": 50,
+    "top": 50
+  },
+  "History|2022": {
+    "dropped_real_match": 3,
+    "total": 50,
+    "top": 50
+  },
+  "History|2023": {
+    "dropped_real_match": 4,
+    "total": 50,
+    "top": 50
+  },
+  "History": {
+    "cross_year_overlap": {
+      "2020v2021": 27,
+      "2020v2022": 27,
+      "2020v2023": 25,
+      "2021v2022": 28,
+      "2021v2023": 26,
+      "2022v2023": 25
+    },
+    "pool_size_union": 90
+  },
+  "IRS|2020": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "IRS|2021": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "IRS|2022": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "IRS|2023": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "IRS": {
+    "cross_year_overlap": {
+      "2020v2021": 26,
+      "2020v2022": 25,
+      "2020v2023": 25,
+      "2021v2022": 25,
+      "2021v2023": 24,
+      "2022v2023": 25
+    },
+    "pool_size_union": 86
+  },
+  "Igbo|2020": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Igbo|2021": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Igbo|2022": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Igbo|2023": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Igbo": {
+    "cross_year_overlap": {
+      "2020v2021": 26,
+      "2020v2022": 25,
+      "2020v2023": 23,
+      "2021v2022": 25,
+      "2021v2023": 23,
+      "2022v2023": 23
+    },
+    "pool_size_union": 85
+  },
+  "Literature|2020": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Literature|2021": {
+    "dropped_real_match": 2,
+    "total": 50,
+    "top": 50
+  },
+  "Literature|2022": {
+    "dropped_real_match": 4,
+    "total": 50,
+    "top": 50
+  },
+  "Literature|2023": {
+    "dropped_real_match": 3,
+    "total": 50,
+    "top": 50
+  },
+  "Literature": {
+    "cross_year_overlap": {
+      "2020v2021": 33,
+      "2020v2022": 32,
+      "2020v2023": 31,
+      "2021v2022": 33,
+      "2021v2023": 30,
+      "2022v2023": 30
+    },
+    "pool_size_union": 77
+  },
+  "Mathematics|2020": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Mathematics|2021": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Mathematics|2022": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Mathematics|2023": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Mathematics": {
+    "cross_year_overlap": {
+      "2020v2021": 0,
+      "2020v2022": 0,
+      "2020v2023": 0,
+      "2021v2022": 0,
+      "2021v2023": 0,
+      "2022v2023": 0
+    },
+    "pool_size_union": 683
+  },
+  "Physics|2020": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Physics|2021": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Physics|2022": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Physics|2023": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Physics": {
+    "cross_year_overlap": {
+      "2020v2021": 10,
+      "2020v2022": 0,
+      "2020v2023": 0,
+      "2021v2022": 1,
+      "2021v2023": 0,
+      "2022v2023": 0
+    },
+    "pool_size_union": 270
+  },
+  "Yoruba|2020": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Yoruba|2021": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Yoruba|2022": {
+    "dropped_real_match": 0,
+    "total": 50,
+    "top": 50
+  },
+  "Yoruba|2023": {
+    "dropped_real_match": 1,
+    "total": 50,
+    "top": 50
+  },
+  "Yoruba": {
+    "cross_year_overlap": {
+      "2020v2021": 23,
+      "2020v2022": 23,
+      "2020v2023": 21,
+      "2021v2022": 21,
+      "2021v2023": 21,
+      "2022v2023": 21
+    },
+    "pool_size_union": 91
+  }
+}
